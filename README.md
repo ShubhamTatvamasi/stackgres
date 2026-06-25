@@ -11,8 +11,4 @@ kubectl -n stackgres \
 kubectl create ns stackgres-test
 ```
 
-```bash
-kubectl label namespace stackgres-test stackgres.io/namespace=true
-```
-
 
